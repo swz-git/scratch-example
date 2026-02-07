@@ -1,6 +1,7 @@
 #:schema https://rlbot.org/schemas/agent.json
 [settings]
 name = "Scratch Example Bot"
+# Should be [your name]/[your bots name]
 agent_id = "rlbot/scratch-example/atba_agent"
 # loadout_file = "loadout.toml"
 run_command = "rlbot-scratch-bridge.exe --sb3 project.sb3"
