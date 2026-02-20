@@ -9,7 +9,7 @@ RLBot v5!
 1. Run the bridge binary with the `RLBOT_AGENT_ID` env var.
    The value of `RLBOT_AGENT_ID` should match the one in your bot.toml
    - `RLBOT_AGENT_ID=YOURAGENTID ./rlbot-scratch-bridge` on linux,
-   - `set RLBOT_AGENT_ID=YOURAGENTID && .\rlbot-scratch-bridge.exe` on windows
+   - `set RLBOT_AGENT_ID=YOURAGENTID&& .\rlbot-scratch-bridge.exe` on windows (yes that missing space before the && is intentional. KEEP the && or else it will not work)
 1. Open `project.sb3` in the turbowarp editor
 1. Start a match with the bot and **make sure you've disabled autostart for your 
    bot!**
